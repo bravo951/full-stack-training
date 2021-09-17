@@ -21,8 +21,6 @@ use Northwind
 go
 
 -- Q1
-select * from Employees
-select * from Customers
 /* join version */
 select distinct c.City from Customers c inner join
 Employees e
@@ -46,9 +44,6 @@ select p.ProductName, count(d.OrderID) as OrderCount from Products p right join
 [Order Details] d
 on p.ProductID = d.ProductID
 group by ProductName
-select * from Products
-select * from Orders
-select * from [Order Details]
 
 -- Q4
 select City, count(OrderID) from
@@ -56,8 +51,6 @@ select City, count(OrderID) from
 Orders o
 on c.City = o.ShipCity) temp
 group by City
-
-select ShipCity from Orders where ShipCity not in (select City from Customers)
 
 -- Q5
 /* a. use union */
@@ -79,9 +72,7 @@ group by ShipCity
 having count(d.ProductID) >= 2
 
 -- Q7
-select * from Customers
-select * from Orders
-select * from Customers c
+select ContactName from Customers c
 where c.City not in
 (select o.ShipCity from Orders o inner join Customers c on o.ShipCity = c.City)
 
