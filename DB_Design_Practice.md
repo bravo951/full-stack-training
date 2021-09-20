@@ -89,7 +89,7 @@ insert into ProjectActions values(1,2,'sales',3),
 ```
 **DB Diagram:**
 
-![enter image description here](https://github.com/bravo951/full-stack-training/blob/main/Design1.png?raw=true)
+![enter image description here](https://github.com/bravo951/full-stack-training/blob/main/design1.png?raw=true)
 ## 
 2. **Design a database for a lending company which manages lending among people (p2p lending)**
 Lenders that lending money are registered with an Id, name and available amount of money for the financial operations.
