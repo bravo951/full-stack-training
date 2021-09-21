@@ -72,12 +72,12 @@ select * from EmployeeTerritories
 select * from Employees
 select * from Territories
 -- Q1
-/* a. A new region called ìMiddle Earthî */
+/* a. A new region called ‚ÄúMiddle Earth‚Äù */
 insert into Region values(5,'Middle Earth')
 exec sp_help name
-/* b. A new territory called ìGondorî, belongs to region ìMiddle Earthî */
+/* b. A new territory called ‚ÄúGondor‚Äù, belongs to region ‚ÄúMiddle Earth‚Äù */
 insert into Territories(TerritoryID, TerritoryDescription, RegionID) values(98220,'Gondor',5)
-/* c. A new employee ìAragorn Kingî who's territory is ìGondorî */
+/* c. A new employee ‚ÄúAragorn King‚Äù who's territory is ‚ÄúGondor‚Äù */
 -- DBCC CHECKIDENT (Employees, RESEED, 9)
 insert into Employees(LastName,FirstName,PostalCode) values('King','Aragorn',98220)
 -- delete from Employees where EmployeeID = 11
@@ -96,7 +96,7 @@ delete from Region where RegionID = 5
 delete from Employees where EmployeeID = 10
 DBCC CHECKIDENT (Employees, RESEED, 9)
 
-/* Q4 Create a view named ìview_product_order_[your_last_name]î, list all 
+/* Q4 Create a view named ‚Äúview_product_order_[your_last_name]‚Äù, list all 
 products and total ordered quantity for that product.*/
 create view view_product_order_Ma
 as
@@ -107,7 +107,7 @@ as
 	on p.ProductID = temp.ProductID
 select * from view_product_order_Ma
 
-/* Q5. Create a stored procedure ìsp_product_order_quantity_[your_last_name]î that accept product id as an input 
+/* Q5. Create a stored procedure ‚Äúsp_product_order_quantity_[your_last_name]‚Äù that accept product id as an input 
 	and total quantities of order as output parameter. @totalQ =*/
 alter proc sp_product_order_quantity_Ma
 @pid int, @totalQ int out
@@ -121,7 +121,7 @@ declare @Q int
 exec sp_product_order_quantity_Ma 1, @Q out
 print(@Q)
 
-/* Q6. Create a stored procedure ìsp_product_order_city_[your_last_name]î that accept product name as an input and top 5 
+/* Q6. Create a stored procedure ‚Äúsp_product_order_city_[your_last_name]‚Äù that accept product name as an input and top 5 
 cities that ordered most that product combined with the total quantity of that product ordered from that city as output. */
 create proc sp_product_order_city_Ma
 @pname varchar(20)
@@ -211,7 +211,18 @@ insert into birthday_employees_Ma
 	where MONTH(BirthDate) = 2
 end
 -- Q11
-
+create proc sp_your_Ma_1
+as
+begin 
+	with cte as
+	(select count(od.ProductID) ProductCNT,c.CustomerID,c.City from Orders o 
+	inner join [Order Details] od on o.OrderID = od.OrderID
+	right join Customers c on c.CustomerID = o.CustomerID
+	group by c.City,c.CustomerID
+	having count(od.ProductID) <= 1)
+	select COUNT(1) cnt,City from cte
+	group by City having COUNT(1) >= 2
+end
 -- Q12
 /*
 drop table t1
