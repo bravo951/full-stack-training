@@ -1,0 +1,16 @@
+D:\vsProjects\ConsoleApp10\ConsoleApp10\bin\Debug\netcoreapp3.1\ConsoleApp10.exe
+D:\vsProjects\ConsoleApp10\ConsoleApp10\bin\Debug\netcoreapp3.1\ConsoleApp10.deps.json
+D:\vsProjects\ConsoleApp10\ConsoleApp10\bin\Debug\netcoreapp3.1\ConsoleApp10.runtimeconfig.json
+D:\vsProjects\ConsoleApp10\ConsoleApp10\bin\Debug\netcoreapp3.1\ConsoleApp10.runtimeconfig.dev.json
+D:\vsProjects\ConsoleApp10\ConsoleApp10\bin\Debug\netcoreapp3.1\ConsoleApp10.dll
+D:\vsProjects\ConsoleApp10\ConsoleApp10\bin\Debug\netcoreapp3.1\ConsoleApp10.pdb
+D:\vsProjects\ConsoleApp10\ConsoleApp10\bin\Debug\netcoreapp3.1\Data.Model.dll
+D:\vsProjects\ConsoleApp10\ConsoleApp10\bin\Debug\netcoreapp3.1\Data.Repository.dll
+D:\vsProjects\ConsoleApp10\ConsoleApp10\bin\Debug\netcoreapp3.1\Data.Repository.pdb
+D:\vsProjects\ConsoleApp10\ConsoleApp10\bin\Debug\netcoreapp3.1\Data.Model.pdb
+D:\vsProjects\ConsoleApp10\ConsoleApp10\obj\Debug\netcoreapp3.1\ConsoleApp10.csprojAssemblyReference.cache
+D:\vsProjects\ConsoleApp10\ConsoleApp10\obj\Debug\netcoreapp3.1\ConsoleApp10.AssemblyInfoInputs.cache
+D:\vsProjects\ConsoleApp10\ConsoleApp10\obj\Debug\netcoreapp3.1\ConsoleApp10.AssemblyInfo.cs
+D:\vsProjects\ConsoleApp10\ConsoleApp10\obj\Debug\netcoreapp3.1\ConsoleApp10.csproj.CopyComplete
+D:\vsProjects\ConsoleApp10\ConsoleApp10\obj\Debug\netcoreapp3.1\ConsoleApp10.dll
+D:\vsProjects\ConsoleApp10\ConsoleApp10\obj\Debug\netcoreapp3.1\ConsoleApp10.pdb

@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ConsoleApp10/1.0.0": {
+        "dependencies": {
+          "Data.Repository": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleApp10.dll": {}
+        }
+      },
+      "Data.Model/1.0.0": {
+        "runtime": {
+          "Data.Model.dll": {}
+        }
+      },
+      "Data.Repository/1.0.0": {
+        "dependencies": {
+          "Data.Model": "1.0.0"
+        },
+        "runtime": {
+          "Data.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp10/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Data.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Data.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
