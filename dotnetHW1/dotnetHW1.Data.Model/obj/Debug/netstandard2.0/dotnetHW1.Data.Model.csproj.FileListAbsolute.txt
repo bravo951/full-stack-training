@@ -1,0 +1,8 @@
+D:\vsProjects\dotnetHW1.Data.Model\bin\Debug\netstandard2.0\dotnetHW1.Data.Model.deps.json
+D:\vsProjects\dotnetHW1.Data.Model\bin\Debug\netstandard2.0\dotnetHW1.Data.Model.dll
+D:\vsProjects\dotnetHW1.Data.Model\bin\Debug\netstandard2.0\dotnetHW1.Data.Model.pdb
+D:\vsProjects\dotnetHW1.Data.Model\obj\Debug\netstandard2.0\dotnetHW1.Data.Model.csprojAssemblyReference.cache
+D:\vsProjects\dotnetHW1.Data.Model\obj\Debug\netstandard2.0\dotnetHW1.Data.Model.AssemblyInfoInputs.cache
+D:\vsProjects\dotnetHW1.Data.Model\obj\Debug\netstandard2.0\dotnetHW1.Data.Model.AssemblyInfo.cs
+D:\vsProjects\dotnetHW1.Data.Model\obj\Debug\netstandard2.0\dotnetHW1.Data.Model.dll
+D:\vsProjects\dotnetHW1.Data.Model\obj\Debug\netstandard2.0\dotnetHW1.Data.Model.pdb

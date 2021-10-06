@@ -1,0 +1,11 @@
+D:\vsProjects\dotnetHW1.Data.Respository\bin\Debug\netstandard2.0\dotnetHW1.Data.Model.dll
+D:\vsProjects\dotnetHW1.Data.Respository\obj\Debug\netstandard2.0\dotnetHW1.Data.Respository.csprojAssemblyReference.cache
+D:\vsProjects\dotnetHW1.Data.Respository\obj\Debug\netstandard2.0\dotnetHW1.Data.Respository.AssemblyInfoInputs.cache
+D:\vsProjects\dotnetHW1.Data.Respository\obj\Debug\netstandard2.0\dotnetHW1.Data.Respository.AssemblyInfo.cs
+D:\vsProjects\dotnetHW1.Data.Respository\bin\Debug\netstandard2.0\dotnetHW1.Data.Respository.deps.json
+D:\vsProjects\dotnetHW1.Data.Respository\bin\Debug\netstandard2.0\dotnetHW1.Data.Respository.dll
+D:\vsProjects\dotnetHW1.Data.Respository\bin\Debug\netstandard2.0\dotnetHW1.Data.Respository.pdb
+D:\vsProjects\dotnetHW1.Data.Respository\bin\Debug\netstandard2.0\dotnetHW1.Data.Model.pdb
+D:\vsProjects\dotnetHW1.Data.Respository\obj\Debug\netstandard2.0\dotnetHW1.Data.Respository.csproj.CopyComplete
+D:\vsProjects\dotnetHW1.Data.Respository\obj\Debug\netstandard2.0\dotnetHW1.Data.Respository.dll
+D:\vsProjects\dotnetHW1.Data.Respository\obj\Debug\netstandard2.0\dotnetHW1.Data.Respository.pdb
