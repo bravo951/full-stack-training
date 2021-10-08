@@ -8,7 +8,7 @@ namespace ConsoleApp10.UI
 {
     class ManageService : MainScreen
     {
-        IRepository<Service> ServiceRepository;
+        IRepository<Services> ServiceRepository;
         public ManageService()
         {
             ServiceRepository = new ServiceRepository();
@@ -25,7 +25,7 @@ namespace ConsoleApp10.UI
                 switch (choice)
                 {
                     case (int)Operations.Add:
-                        Service s = new Service();
+                        Services s = new Services();
                         Console.Write("Enter Room No. => ");
                         s.ROOMNO = Convert.ToInt32(Console.ReadLine());
                         Console.Write("Enter Service Description => ");
@@ -39,7 +39,7 @@ namespace ConsoleApp10.UI
                             Console.WriteLine("Some error has occurred");
                         break;
                     case (int)Operations.Update:
-                        Service ss = new Service();
+                        Services ss = new Services();
                         Console.Write("Enter Id => ");
                         ss.Id = Convert.ToInt32(Console.ReadLine());
                         Console.Write("Enter Room No. => ");
@@ -64,7 +64,7 @@ namespace ConsoleApp10.UI
                         break;
                     case (int)Operations.Print:
 
-                        IEnumerable<Service> Sv_List = ServiceRepository.GetAll();
+                        IEnumerable<Services> Sv_List = ServiceRepository.GetAll();
                         foreach (var item in Sv_List)
                         {
                             Console.WriteLine(item.Id + "   " + item.ROOMNO + '\t' + item.SDESC + '\t' + item.AMOUNT + '\t' + item.ServiceDate);

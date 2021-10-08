@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Data.Model
 {
-    public class Service
+    public class Services
     {
         public int Id { get; set; }
         public int ROOMNO { get; set; }
