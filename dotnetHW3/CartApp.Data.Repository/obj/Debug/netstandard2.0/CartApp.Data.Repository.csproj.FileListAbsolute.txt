@@ -1,0 +1,11 @@
+D:\vsProjects\CartApp.Data.Repository\bin\Debug\netstandard2.0\CartApp.Data.Models.dll
+D:\vsProjects\CartApp.Data.Repository\obj\Debug\netstandard2.0\CartApp.Data.Repository.csprojAssemblyReference.cache
+D:\vsProjects\CartApp.Data.Repository\obj\Debug\netstandard2.0\CartApp.Data.Repository.AssemblyInfoInputs.cache
+D:\vsProjects\CartApp.Data.Repository\obj\Debug\netstandard2.0\CartApp.Data.Repository.AssemblyInfo.cs
+D:\vsProjects\CartApp.Data.Repository\bin\Debug\netstandard2.0\CartApp.Data.Repository.deps.json
+D:\vsProjects\CartApp.Data.Repository\bin\Debug\netstandard2.0\CartApp.Data.Repository.dll
+D:\vsProjects\CartApp.Data.Repository\bin\Debug\netstandard2.0\CartApp.Data.Repository.pdb
+D:\vsProjects\CartApp.Data.Repository\bin\Debug\netstandard2.0\CartApp.Data.Models.pdb
+D:\vsProjects\CartApp.Data.Repository\obj\Debug\netstandard2.0\CartApp.Data.Repository.csproj.CopyComplete
+D:\vsProjects\CartApp.Data.Repository\obj\Debug\netstandard2.0\CartApp.Data.Repository.dll
+D:\vsProjects\CartApp.Data.Repository\obj\Debug\netstandard2.0\CartApp.Data.Repository.pdb
