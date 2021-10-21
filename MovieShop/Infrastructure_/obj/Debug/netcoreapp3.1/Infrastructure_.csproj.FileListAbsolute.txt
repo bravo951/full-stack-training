@@ -1,0 +1,5 @@
+D:\vsProjects\MovieShop\Infrastructure_\bin\Debug\netcoreapp3.1\Infrastructure_.deps.json
+D:\vsProjects\MovieShop\Infrastructure_\bin\Debug\netcoreapp3.1\Infrastructure_.dll
+D:\vsProjects\MovieShop\Infrastructure_\obj\Debug\netcoreapp3.1\Infrastructure_.csprojAssemblyReference.cache
+D:\vsProjects\MovieShop\Infrastructure_\obj\Debug\netcoreapp3.1\Infrastructure_.AssemblyInfoInputs.cache
+D:\vsProjects\MovieShop\Infrastructure_\obj\Debug\netcoreapp3.1\Infrastructure_.AssemblyInfo.cs

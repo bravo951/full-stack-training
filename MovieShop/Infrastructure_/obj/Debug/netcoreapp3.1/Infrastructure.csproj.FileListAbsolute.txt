@@ -1,0 +1,13 @@
+D:\vsProjects\MovieShop\Infrastructure_\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
+D:\vsProjects\MovieShop\Infrastructure_\bin\Debug\netcoreapp3.1\Infrastructure.dll
+D:\vsProjects\MovieShop\Infrastructure_\bin\Debug\netcoreapp3.1\ApplicationCore.dll
+D:\vsProjects\MovieShop\Infrastructure_\bin\Debug\netcoreapp3.1\ApplicationCore.pdb
+D:\vsProjects\MovieShop\Infrastructure_\obj\Debug\netcoreapp3.1\Infrastructure.csprojAssemblyReference.cache
+D:\vsProjects\MovieShop\Infrastructure_\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+D:\vsProjects\MovieShop\Infrastructure_\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+D:\vsProjects\MovieShop\Infrastructure_\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
+D:\vsProjects\MovieShop\Infrastructure_\bin\Debug\netcoreapp3.1\Infrastructure.runtimeconfig.json
+D:\vsProjects\MovieShop\Infrastructure_\bin\Debug\netcoreapp3.1\Infrastructure.runtimeconfig.dev.json
+D:\vsProjects\MovieShop\Infrastructure_\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+D:\vsProjects\MovieShop\Infrastructure_\obj\Debug\netcoreapp3.1\Infrastructure.dll
+D:\vsProjects\MovieShop\Infrastructure_\obj\Debug\netcoreapp3.1\Infrastructure.pdb

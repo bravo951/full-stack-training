@@ -1,0 +1,11 @@
+D:\vsProjects\MovieShop\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.deps.json
+D:\vsProjects\MovieShop\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.dll
+D:\vsProjects\MovieShop\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.pdb
+D:\vsProjects\MovieShop\Infrastructure\bin\Debug\netstandard2.0\ApplicationCore.dll
+D:\vsProjects\MovieShop\Infrastructure\bin\Debug\netstandard2.0\ApplicationCore.pdb
+D:\vsProjects\MovieShop\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csprojAssemblyReference.cache
+D:\vsProjects\MovieShop\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfoInputs.cache
+D:\vsProjects\MovieShop\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfo.cs
+D:\vsProjects\MovieShop\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csproj.CopyComplete
+D:\vsProjects\MovieShop\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.dll
+D:\vsProjects\MovieShop\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.pdb
