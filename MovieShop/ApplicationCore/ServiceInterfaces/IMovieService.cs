@@ -2,13 +2,14 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace ApplicationCore.ServiceInterfaces
 {
     public interface IMovieService
     {
-        List<MovieCardResponseModel> GetTop30RevenueMovies();
-
+        Task<List<MovieCardResponseModel>> GetTop30RevenueMovies();
+        Task<MovieDetailsResponseModel> GetMovieDetails(int id);
 
     }
 }

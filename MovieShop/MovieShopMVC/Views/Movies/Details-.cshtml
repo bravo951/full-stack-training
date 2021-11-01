@@ -1,0 +1,44 @@
+﻿@model ApplicationCore.Models.MovieDetailsResponseModel
+@*@{
+    ViewData["Title"] = "Details";
+}*@
+
+<h1>Details</h1>
+
+<div class="container">
+    
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="@Model.PosterUrl" />
+        </div>
+        <div class="col-sm-4">
+            <p>title</p>
+            <p>genres</p>
+            <p>Rating: @Model.Rating</p>
+        </div>
+        <div class="col-sm-4">
+            <button value="Buy Movie"></button>
+            <button value="Review"></button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            Movie Facts
+            <ul class="list-group">
+                <li class="list-group-item">Release Date</li>
+                <li class="list-group-item">Run Time</li>
+                <li class="list-group-item">Box Office</li>
+                <li class="list-group-item">Budget</li>
+            </ul>
+            Trailers
+            <ul class="list-group">
+                <li class="list-group-item"></li>
+            </ul>
+            
+        </div>
+        <div class="col-sm-4">
+            Casts
+        </div>
+    </div>
+</div>
+

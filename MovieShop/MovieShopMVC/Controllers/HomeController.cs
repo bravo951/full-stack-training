@@ -21,13 +21,13 @@ namespace MovieShopMVC.Controllers
         }
 
         [HttpGet]
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             
             //call movieservice class to get list of movie cards
             //MovieService _movieService = new MovieService();
 
-            var movieCards = _movieService.GetTop30RevenueMovies();
+            var movieCards = await _movieService.GetTop30RevenueMovies();
             //passing data from controller to view
             return View(movieCards);
         }
@@ -35,7 +35,7 @@ namespace MovieShopMVC.Controllers
         [HttpGet]
         public IActionResult Privacy()
         {
-            return View();
+            return View("Details");
         }
 
         [HttpGet]

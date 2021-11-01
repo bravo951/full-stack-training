@@ -1,0 +1,8 @@
+D:\vsProjects\MovieShop\ApplicationCore\bin\Debug\netstandard2.1\ApplicationCore.deps.json
+D:\vsProjects\MovieShop\ApplicationCore\bin\Debug\netstandard2.1\ApplicationCore.dll
+D:\vsProjects\MovieShop\ApplicationCore\bin\Debug\netstandard2.1\ApplicationCore.pdb
+D:\vsProjects\MovieShop\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.csprojAssemblyReference.cache
+D:\vsProjects\MovieShop\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.AssemblyInfoInputs.cache
+D:\vsProjects\MovieShop\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.AssemblyInfo.cs
+D:\vsProjects\MovieShop\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.dll
+D:\vsProjects\MovieShop\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.pdb
