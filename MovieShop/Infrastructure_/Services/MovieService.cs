@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using static ApplicationCore.Models.MovieDetailsResponseModel;
 
 namespace Infrastructure.Services
 {
@@ -16,6 +17,17 @@ namespace Infrastructure.Services
             _movieRepository = movieRepository;
         }
 
+        public async Task<List<MovieCardResponseModel>> GetMoviesByGenres(int genreId, int pagesize = 30,int pageIndex = 1)
+        {
+            var movies = await _movieRepository.GetMovieByGenre(genreId,pagesize,pageIndex);
+            var movieCards = new List<MovieCardResponseModel>();
+            foreach (var item in movies)
+            {
+                movieCards.Add(new MovieCardResponseModel { Id = item.Id, Title = item.Title, PosterUrl = item.PosterUrl });
+
+            }
+            return movieCards;
+        }
         public async Task<MovieDetailsResponseModel> GetMovieDetails(int id)
         {
             var movie = await _movieRepository.GetMovieById(id);
@@ -60,12 +72,6 @@ namespace Infrastructure.Services
 
         public async Task<List<MovieCardResponseModel>> GetTop30RevenueMovies()
         {
-            //var movieCards = new List<MovieCardResponseModel>
-            //{
-            //    new MovieCardResponseModel{Id = 1,Title = "Interception",PosterUrl = "https://image.tmdb.org/t/p/w342//9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg"},
-            //    new MovieCardResponseModel{Id = 2,Title = "Interstellar",PosterUrl = "https://image.tmdb.org/t/p/w342//gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"},
-            //    new MovieCardResponseModel{Id = 3,Title = "The Dark Knight",PosterUrl = "https://image.tmdb.org/t/p/w342//qJ2tW6WMUDux911r6m7haRef0WH.jpg"}
-            //};
             var movies = await _movieRepository.GetTop30RevenueMovies();
             var movieCards = new List<MovieCardResponseModel>();
             foreach(var movie in movies)
@@ -74,5 +80,11 @@ namespace Infrastructure.Services
             }
             return movieCards;
         }
+        public async Task<IEnumerable<Object>> GetToppPuchasedMovies(int pageSize=30,int pageIndex=1)
+        {
+            var movies = await _movieRepository.GetPurchasedMovie(pageSize, pageIndex);
+            return movies;
+        }
+
     }
 }

@@ -10,12 +10,12 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Repositories
 {
-    public class MovieRepository : IMovieRepository
+    public class MovieRepository : EfRepository<Movie>, IMovieRepository
     {
-        public MovieShopDbContext _dbContext { get; private set; }
-        public MovieRepository(MovieShopDbContext dbContext)
+        //public MovieShopDbContext _dbContext { get; private set; }
+        public MovieRepository(MovieShopDbContext dbContext):base(dbContext)
         {
-            _dbContext = dbContext;
+            
         }
         
         public async Task<Movie> GetMovieById(int id)
@@ -33,5 +33,25 @@ namespace Infrastructure.Repositories
             var movies = await _dbContext.Movies.OrderByDescending(m => m.Revenue).Take(30).ToListAsync();
             return movies;
         }
+        public async Task<IEnumerable<Object>> GetPurchasedMovie(int pageSize = 30, int pageIndex = 1)
+        {
+            var movies = await _dbContext.Purchases.Include(p=>p.Movie).GroupBy(p=>p.MovieId)
+                .Select(mc=>new {mid=mc.Key,pCnt=mc.Count()}).OrderByDescending(mc=>mc.pCnt)
+                .Skip(pageIndex-1).Take(pageSize).ToListAsync();
+            return movies;
+        }
+
+        public async Task<IEnumerable<Movie>> GetMovieByGenre(int id, int pageSize = 30, int pageIndex = 1)
+        {
+            var movies = await _dbContext.Movies.Where(m => m.Genres.All(mg => mg.GenreId == id)).Skip(pageIndex - 1).Take(pageSize).ToListAsync();
+            return movies;
+        }
+        public async Task<IEnumerable<Review>> GetMovieReviews(int id, int pageSize = 30, int pageIndex = 1)
+        {
+            var reviews = await _dbContext.Reviews.Where(m => m.MovieId == id).Skip(pageIndex-1).Take(pageSize).ToListAsync();
+            return reviews;
+        }
+
+        
     }
 }

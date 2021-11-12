@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Locke\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Locke\\.nuget\\packages"
+    ]
+  }
+}

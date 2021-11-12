@@ -1,0 +1,19 @@
+﻿@model ApplicationCore.Models.ReviewRequestModel
+@{
+    ViewData["Title"] = "Review";
+}
+
+<h1>Review</h1>
+<form asp-action="reviews">
+    <div class="mb-3">
+        <label for="rating" class="form-label">Rating</label>
+        <input type="text" class="form-control" name="rating" placeholder="1~5">
+    </div>
+    <div class="mb-3">
+        <label for="reviewtext" class="form-label">Review</label>
+        <textarea class="form-control" name="reviewtext" rows="3"></textarea>
+    </div>
+    <div class="mb-3">
+        <button type="submit" class="btn btn-primary mb-3">Confirm identity</button>
+    </div>
+</form>

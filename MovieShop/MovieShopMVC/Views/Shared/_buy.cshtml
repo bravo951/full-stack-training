@@ -1,0 +1,5 @@
+﻿@model ApplicationCore.Models.PurchaseRequestModel
+
+    <form asp-controller="User" asp-action="Purchase">
+        <input type="submit" value="BUY" class="btn btn-primary" asp-for="@Model.MovieId" />
+    </form>

@@ -158,7 +158,6 @@ D:\vsProjects\MovieShop\MovieShopMVC\bin\Debug\netcoreapp3.1\Humanizer.dll
 D:\vsProjects\MovieShop\MovieShopMVC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 D:\vsProjects\MovieShop\MovieShopMVC\obj\Debug\netcoreapp3.1\MovieShopMVC.MvcApplicationPartsAssemblyInfo.cache
 D:\vsProjects\MovieShop\MovieShopMVC\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Details.cshtml.g.cs
-D:\vsProjects\MovieShop\MovieShopMVC\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Details-.cshtml.g.cs
 D:\vsProjects\MovieShop\MovieShopMVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_MovieCard.cshtml.g.cs
 D:\vsProjects\MovieShop\MovieShopMVC\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\vsProjects\MovieShop\MovieShopMVC\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -166,3 +165,8 @@ D:\vsProjects\MovieShop\MovieShopMVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\
 D:\vsProjects\MovieShop\MovieShopMVC\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
 D:\vsProjects\MovieShop\MovieShopMVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CastList.cshtml.g.cs
 D:\vsProjects\MovieShop\MovieShopMVC\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+D:\vsProjects\MovieShop\MovieShopMVC\obj\Debug\netcoreapp3.1\Razor\Views\User\Purchases.cshtml.g.cs
+D:\vsProjects\MovieShop\MovieShopMVC\obj\Debug\netcoreapp3.1\Razor\Views\User\purchase.cshtml.g.cs
+D:\vsProjects\MovieShop\MovieShopMVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_buy.cshtml.g.cs
+D:\vsProjects\MovieShop\MovieShopMVC\obj\Debug\netcoreapp3.1\Razor\Views\User\Favorites.cshtml.g.cs
+D:\vsProjects\MovieShop\MovieShopMVC\obj\Debug\netcoreapp3.1\Razor\Views\User\Review.cshtml.g.cs

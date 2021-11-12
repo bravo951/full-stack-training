@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace ApplicationCore.RepositoryInterfaces
 {
-    public interface IMovieRepository
+    public interface IMovieRepository : IAsyncRepository<Movie>
     {
-        Task<IEnumerable<Movie>> GetTop30RevenueMovies();
-        Task<Movie> GetMovieById(int id);
+        public Task<IEnumerable<Movie>> GetTop30RevenueMovies();
+        public Task<Movie> GetMovieById(int id);
+        public Task<IEnumerable<Movie>> GetMovieByGenre(int id, int pageSize, int pageIndex);
+        public Task<IEnumerable<Review>> GetMovieReviews(int id, int pageSize, int page);
+        public Task<IEnumerable<Object>> GetPurchasedMovie(int pageSize, int pageIndex);
     }
 }

@@ -15,6 +15,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MovieShopMVC.Services;
 
 namespace MovieShopMVC
 {
@@ -34,7 +35,12 @@ namespace MovieShopMVC
             services.AddScoped<IMovieService, MovieService>();
             services.AddScoped<IMovieRepository, MovieRepository>();
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<ICurrentUserService, CurrentUserService>();
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IPurchaseRepository, PurchaseRepository>();
+            services.AddScoped<IFavoriteRepository, FavoriteRepository>();
+            services.AddScoped<IReviewRepository, ReviewRepository>();
+            services.AddHttpContextAccessor();
             services.AddDbContext<MovieShopDbContext>(
                 options => options.UseSqlServer(Configuration.GetConnectionString("MovieShopDbConnection"))
                 );

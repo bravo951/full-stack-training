@@ -1,5 +1,6 @@
 ﻿using ApplicationCore.ServiceInterfaces;
 using Microsoft.AspNetCore.Mvc;
+using MovieShopMVC.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;

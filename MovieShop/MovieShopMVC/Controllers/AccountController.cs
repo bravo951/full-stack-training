@@ -23,8 +23,11 @@ namespace MovieShopMVC.Controllers
         [HttpPost]
         public async Task<IActionResult> Register(UserRegisterRequestModel requestModel)
         {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
             var newUser = await _userService.RegisterUser(requestModel);
-            
             return View("Login");
             //return to login page
         }
@@ -54,9 +57,10 @@ namespace MovieShopMVC.Controllers
             {
                 new Claim(ClaimTypes.Email,user.Email),
                 new Claim(ClaimTypes.GivenName,user.FirstName),
-                new Claim(ClaimTypes.NameIdentifier,user.LastName),
+                new Claim(ClaimTypes.NameIdentifier,Convert.ToString(user.Id)),
                 new Claim(ClaimTypes.DateOfBirth,user.DateOfBirth.ToShortDateString()),
                 new Claim("FullName",user.FirstName+" "+user.LastName)
+
             };
             //Identity
             //creating the cookie
